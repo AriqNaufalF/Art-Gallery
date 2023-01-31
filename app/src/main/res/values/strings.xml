@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Art Gallery</string>
+    <string-array name="art_1_data">
+        <item>Fishing in Minecraft at sunset</item>
+        <item>Sunset Fishing</item>
+        <item>Ariq Naufal F</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="art_2_data">
+        <item>Silhouette of person at sunrise</item>
+        <item>Dieng Plateau Sunrise</item>
+        <item>Ariq Naufal F</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="art_3_data">
+        <item>A hen</item>
+        <item>A Pretty Hen</item>
+        <item>Ariq Naufal F</item>
+        <item>2019</item>
+    </string-array>
+    <string-array name="art_4_data">
+        <item>White daisy</item>
+        <item>Bloom season</item>
+        <item>Ariq Naufal F</item>
+        <item>2019</item>
+    </string-array>
+    <string-array name="art_5_data">
+        <item>Mexican sunflower</item>
+        <item>Mexican Sunflower On Mount Guntur</item>
+        <item>M. Fahlan</item>
+        <item>2019</item>
+    </string-array>
+</resources>
