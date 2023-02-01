@@ -77,6 +77,7 @@ fun ArtGalleryScreen() {
             createdAt = createdAt
         )
         NextAndPrevious(
+            modifier = Modifier.fillMaxWidth(),
             onPrevious = {
                 if (currentArt < 2) {
                     currentArt = 5
@@ -151,11 +152,11 @@ fun NextAndPrevious(
     onPrevious: () -> Unit,
 ) {
     Row(modifier = modifier, horizontalArrangement = Arrangement.SpaceBetween) {
-        Button(onClick = onPrevious, modifier = Modifier.weight(1f)) {
+        Button(onClick = onPrevious, modifier = Modifier.widthIn(min = 100.dp)) {
             Text(text = "Previous")
         }
         Spacer(modifier = Modifier.width(20.dp))
-        Button(onClick = onNext, modifier = Modifier.weight(1f)) {
+        Button(onClick = onNext, modifier = Modifier.widthIn(min = 100.dp)) {
             Text(text = "Next")
         }
     }
